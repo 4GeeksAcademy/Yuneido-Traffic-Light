@@ -10,3 +10,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#trafficTop{
+    margin: 0 auto;
+    height: 6vw;
+    width: 1rem;
+    background: black;
+
+}
+
+#trafficSign{
+    margin: 0 auto;
+    width: 11vw;
+    background: black;
+    border-radius: 25px;
+
+}
+
+.trafficLight{
+    margin: 1vw auto;
+    border-radius: 50%;
+    height: 6vw;
+    width: 6vw;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px grey;
+
+}
+
+
+.selected-red{
+    box-shadow: 0px 0px 9px 12px red;
+}
+.selected-yellow{
+    box-shadow: 0px 0px 9px 12px yellow;
+}
+.selected-green{
+    box-shadow: 0px 0px 9px 12px green;
+}
+.selected-purple{
+    box-shadow: 0px 0px 9px 12px purple;
+}
